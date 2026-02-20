@@ -1,7 +1,7 @@
 {
-  "name": "turtlecoin-utils",
-  "version": "0.0.13",
-  "description": "A Node.js collection of utilities useful for TurtleCoin developers",
+  "name": "@leocuvee/turtlecoin-utils",
+  "version": "0.0.14",
+  "description": "A Node.js collection of utilities useful for DeroGold and WRKZCoin developers",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -13,15 +13,21 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/turtlecoin/turtlecoin-utils.git"
+    "url": "git+https://github.com/derogold/turtlecoin-utils.git"
   },
   "author": "Brandon Lehmann <brandonlehmann@gmail.com>",
   "contributors": [
-    "zpalmtree <22151537+zpalmtree@users.noreply.github.com>"
+    {
+      "name": "zpalmtree",
+      "email": "22151537+zpalmtree@users.noreply.github.com"
+    },
+    {
+      "name": "Leo Stehlik - not associated with any crypto"
+    }
   ],
   "license": "GPL-3.0",
   "optionalDependencies": {
-    "turtlecoin-crypto": "^1.0.0"
+    "turtlecoin-crypto": "npm:@leocuvee/turtlecoin-crypto@4.0.9"
   },
   "dependencies": {
     "crc": "^3.8.0",
@@ -39,5 +45,14 @@
   },
   "devDependencies": {
     "standard": "^12.0.1"
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "bugs": {
+    "url": "https://github.com/derogold/turtlecoin-utils/issues"
+  },
+  "homepage": "https://github.com/derogold/turtlecoin-utils.git#readme"
 }
