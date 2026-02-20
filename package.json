@@ -27,7 +27,7 @@
   ],
   "license": "GPL-3.0",
   "optionalDependencies": {
-    "turtlecoin-crypto": "npm:@leocuvee/turtlecoin-crypto@4.0.9"
+    "turtlecoin-crypto": "npm:@leocuvee/turtlecoin-crypto@1.0.0"
   },
   "dependencies": {
     "crc": "^3.8.0",
