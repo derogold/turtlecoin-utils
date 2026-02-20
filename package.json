@@ -1,6 +1,6 @@
 {
   "name": "@leocuvee/turtlecoin-utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Node.js collection of utilities useful for DeroGold and WRKZCoin developers",
   "main": "index.js",
   "types": "index.d.ts",
