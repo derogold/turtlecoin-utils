@@ -1,6 +1,6 @@
 {
   "name": "@leocuvee/turtlecoin-utils",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A Node.js collection of utilities useful for DeroGold and WRKZCoin developers",
   "main": "index.js",
   "types": "index.d.ts",
@@ -27,7 +27,7 @@
   ],
   "license": "GPL-3.0",
   "optionalDependencies": {
-    "turtlecoin-crypto": "npm:@leocuvee/turtlecoin-crypto@1.0.0"
+    "turtlecoin-crypto": "git+https://github.com/derogold/turtlecoin-crypto.git#9095df2cda93446392050ac3121e65268440727e"
   },
   "dependencies": {
     "crc": "^3.8.0",
